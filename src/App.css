@@ -1,0 +1,44 @@
+
+
+body {
+  background: #111 !important;
+}
+
+.btn-color {
+  background-color: red;
+}
+
+.card {
+  background: #222;
+  color: rgba(250, 250, 250, 0.8);
+  margin-bottom: 2rem;
+  box-shadow: 5px 5px 5px 5px #656161;
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.btn {
+  border: 5px solid;
+  border-image-slice: 1;
+  background: var(--gradient) !important;
+  -webkit-text-fill-color: transparent !important;
+  border-image-source: var(--gradient) !important;
+  text-decoration: none;
+  transition: all .4s ease;
+}
+
+.btn:hover,
+.btn:focus {
+  background: var(--gradient) !important;
+  -webkit-text-fill-color: #fff !important;
+  border: 5px solid #fff !important;
+  box-shadow: #222 1px 0 10px;
+  text-decoration: underline;
+}
+
+.bg-color {
+  background: #222;
+  height: 160px;
+}
