@@ -1,14 +1,13 @@
 import React from 'react'
 
-function UserProfile(props) {
-    console.log(props)
+function UserProfile({profiles}) {
+    console.log({profiles})
 
     return (
         <>
-
             <div className="container mx-auto mt-4">
                 <div className="row">
-                    {props.profiles.map((item,index) =>
+                    {profiles.map((item,index) =>
                         <div className="col" key={index}>
                             <div className="card">
                                 <img src={item.avatar} className="card-img-top" height="200px" alt="..." />
